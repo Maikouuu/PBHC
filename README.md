@@ -25,7 +25,7 @@ conda activate PBHC
 ```
 
 ## Datasets
-Please follow the link to download the datasets LIP (Look into person) and ChictopiaPlus. 
+Please follow the [link](https://drive.google.com/drive/folders/1-Acy2gDKVJhB-MP_KllABj-kgWQxiVwQ?usp=sharing) to download the datasets LIP (Look into person) and ChictopiaPlus. 
 Then put the data folder parallel to training scripts.
 
 ## Train
