@@ -34,10 +34,17 @@ The training process is splited into three stages.
 #### Maintain texture memroy bank.
 `python train_lip.py --stage 1 --prior_type tex`
 ### Structure Completion
-`python train_lip.py --stage 2 \n--struc_memory_path PathToStructureMemory \n--struc_memory_table_id IDOfStructureMemory `
+```
+python train_lip.py --stage 2 
+                    --struc_memory_path PathToStructureMemory --struc_memory_table_id IDOfStructureMemory
+```
 ### Texture Completion
-`python train_lip.py --stage 3 --tex_memory_path ``PathToTextureMemory`` --tex_memory_table_id ``IDOfTextureMemory`` --struc_memory_path ``PathToStructureMemory`` --struc_memory_table_id ``IDOfStructureMemory`` `
-
+```
+python train_lip.py --stage 3 
+                    --tex_memory_path PathToTextureMemory 
+                    --tex_memory_table_id IDOfTextureMemory 
+                    --struc_memory_path PathToStructureMemory --struc_memory_table_id IDOfStructureMemory
+```
 ## Test
 The inference codes is splited in to four stages for evaluating the memory bank, structure completion, texture completion and the whole completion process.
 `python inference.py --stage 4`
