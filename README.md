@@ -17,7 +17,7 @@ Official Implementation for Prior Based Human Completion (CVPR2021)
 
 ```
 
-## Enverimentes
+##  Environments
 You can use to create a virtual environment and install the related package.
 `conda env create -f env.yml`
 `conda activate PBHC`
