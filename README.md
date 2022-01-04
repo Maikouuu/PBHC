@@ -19,8 +19,10 @@ Official Implementation for Prior Based Human Completion (CVPR2021)
 
 ##  Environments
 You can use to create a virtual environment and install the related package.
-`conda env create -f env.yml`
-`conda activate PBHC`
+```
+conda env create -f env.yml
+conda activate PBHC
+```
 
 ## Datasets
 Please follow the link to download the datasets LIP (Look into person) and ChictopiaPlus. 
