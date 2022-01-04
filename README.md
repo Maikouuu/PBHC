@@ -30,9 +30,13 @@ Then put the data folder parallel to training scripts.
 The training process is splited into three stages.
 ### Pripr Encoding
 #### Maintain structure memroy bank.
-`python train_lip.py --stage 1 --prior_type struc`
+```
+python train_lip.py --stage 1 --prior_type struc
+```
 #### Maintain texture memroy bank.
-`python train_lip.py --stage 1 --prior_type tex`
+```
+python train_lip.py --stage 1 --prior_type tex
+```
 ### Structure Completion
 ```
 python train_lip.py --stage 2 
@@ -49,4 +53,6 @@ python train_lip.py --stage 3
 ```
 ## Test
 The inference codes is splited in to four stages for evaluating the memory bank, structure completion, texture completion and the whole completion process.
-`python inference.py --stage 4`
+```
+python inference.py --stage 4
+```
