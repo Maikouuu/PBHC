@@ -55,9 +55,17 @@ python train_lip.py --stage 3
 ```
 ## Test
 The inference codes is splited in to four stages for evaluating the memory bank, structure completion, texture completion and the whole completion process.
+### Evaluation tips
+The masked image should be same for all the methods, otherwise the comparison is
+not fair enough and the result is not precise.
 ```
 python inference.py --stage 4
 ```
+
+## Some potential improvements
+1. The sequence of memroy vector might be predited by the network rather than fetch by an Euclidean Distance.
+2. In this project, I just implemented a naive way to mainttain memory bank.
+However, there should be a better approach to build a proper memory bank.
 
 ## Citation
 ```
@@ -70,3 +78,6 @@ python inference.py --stage 4
 }
 ```
 
+## Some references codes.
+[Edgeconnect](https://github.com/knazeri/edge-connect)
+[VQ-VAE-2-Pytorch](https://github.com/rosinality/vq-vae-2-pytorch)
