@@ -80,4 +80,5 @@ However, there should be a better approach to build a proper memory bank.
 
 ## Some references codes.
 [Edgeconnect](https://github.com/knazeri/edge-connect)
+
 [VQ-VAE-2-Pytorch](https://github.com/rosinality/vq-vae-2-pytorch)
